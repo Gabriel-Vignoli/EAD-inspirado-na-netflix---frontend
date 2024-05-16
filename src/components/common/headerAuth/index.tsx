@@ -44,10 +44,13 @@ const handleLogout = () => {
             className={styles.modal}
             overlayClassName={styles.overlayModal}
             >
-                <Link href="/">
+                <Link href="/profile">
                     <p className={styles.modalLink}>Meus Dados</p>
+                </Link>
+                <Link href="/">
                     <p className={styles.modalLink} onClick={handleLogout}>Sair</p>
                 </Link>
+               
             </Modal>
          </Container>
         </>
