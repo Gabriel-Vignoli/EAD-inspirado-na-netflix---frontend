@@ -20,7 +20,7 @@ const HomeAuth = () => {
           <FavoriteCategory></FavoriteCategory>
           <FeaturedCategory></FeaturedCategory>
           <ListCategories></ListCategories>
-          <Footer></Footer>
+            <Footer></Footer>
           </main>
         </>
     )
